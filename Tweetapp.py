@@ -32,7 +32,7 @@ def main():
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
-    image = Image.open(r'C:\Users\ADMIN\Desktop\banner.jpg')
+    image = Image.open('banner.jpg')
     st.image(image,use_column_width=True)
     st.title("Tweet Sentiment Analyzer🔥")
     options = ["About this App","Tweet Analysis","Generate twitter data"]
